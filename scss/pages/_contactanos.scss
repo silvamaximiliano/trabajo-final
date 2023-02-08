@@ -1,0 +1,98 @@
+
+.contacto{
+    width: 100%;
+    display: grid;
+    grid-template:
+    "area1 area1 area8 area8" auto
+    "area4 area5 area6 area7" auto
+    "area4 are10 area11 area7" auto /
+    330px 330px 330px 330px
+  ;
+  gap: 1rem;
+
+  .formulario{
+    margin: 0 auto;
+    grid-area: area8;
+    width: 660px;
+    height: 600px;
+    form{
+        background-color: white;
+        border-radius: 3px;
+        color: #999;
+        font-size: 0.8em;
+        padding: 0px;
+        margin: 0 auto;
+        width: 300px;
+        
+    }
+    
+    input, textarea{
+        border: 0;
+        outline: none;
+    
+        width: 280px;
+    }
+    
+    .field{
+        border: solid 1px #451691;
+        padding: 10px;
+    
+        
+    }
+    
+    &:focus{
+        border-color: #18A383;
+    }
+    
+    .center-content{
+        text-align: center; 
+    background-color: red;
+    border: 2px solid black;
+    margin-top: 10px;
+    
+        
+    }
+}
+.galeri{
+grid-area: area1;
+width: 660px;
+height: 600px;
+}
+.galeri1{
+grid-area: area4;
+height: 800px;
+width: 330px;
+}
+.galeri2{
+grid-area: area5;
+height: 400px;
+width: 330px;
+
+}
+.galeri3{
+grid-area: area10;
+height: 400px;
+width: 330px;
+
+}
+.galeri4{
+grid-area: area6;
+
+height: 400px;
+width: 330px;
+}
+.galeri5{
+grid-area: area11;
+height: 400px;
+width: 330px;
+
+}
+.galeri6{
+grid-area: area7;
+width: 800px;
+height: 330px;
+}
+}
+
+
+
