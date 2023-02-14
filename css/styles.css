@@ -377,7 +377,7 @@ div .collapse {
 
 @media screen and (max-width: 480px) {
   body {
-    width: 480px;
+    width: 470px;
     height: auto;
   }
   .item_1 {
@@ -412,9 +412,9 @@ div .collapse {
     border-radius: 1rem;
     border: 3px solid rgb(129, 4, 4);
     height: 850px;
-    width: 478px;
+    width: auto;
   }
-  .img11 {
+  .container4 .img11 {
     width: 460px;
     border: 5px solid rgba(224, 36, 36, 0.651);
   }
@@ -425,7 +425,7 @@ div .collapse {
     border-radius: 0;
     margin-top: 0;
     border: 3px solid rgb(85, 7, 187);
-    width: 478px;
+    width: auto;
     height: 700px;
     border-radius: 2px;
   }
@@ -435,7 +435,7 @@ div .collapse {
   .img__col {
     border-radius: 1.5rem;
     border: 3px solid rgba(99, 6, 161, 0.74);
-    width: 460px;
+    width: 450px;
   }
   .galeria {
     display: grid;
@@ -457,9 +457,34 @@ div .collapse {
     margin-bottom: 2060px;
   }
   .contacto {
+    width: auto;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+  }
+  .contacto .formulario {
+    width: auto;
+  }
+  .contacto .galeri {
+    width: auto;
+  }
+  .contacto .galeri1 {
+    width: auto;
+  }
+  .contacto .galeri2 {
+    width: auto;
+  }
+  .contacto .galeri3 {
+    width: auto;
+  }
+  .contacto .galeri4 {
+    width: auto;
+  }
+  .contacto .galeri5 {
+    width: auto;
+  }
+  .contacto .galeri6 {
+    width: auto;
   }
 }
 
